@@ -25,6 +25,7 @@ AntApp::~AntApp()
 {
 }
 
+extern "C" void AntApp__registerApps() { AntApp::registerApps(); }
 void
 AntApp::registerApps()
 {
